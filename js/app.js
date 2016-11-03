@@ -1,4 +1,4 @@
-var app = angular.module('CalendarApp', [ngRoute]);
+var app = angular.module('CalendarApp', ['ngRoute']);
 
 app.config(function ($routeProvider) { 
   $routeProvider 
@@ -14,3 +14,5 @@ app.config(function ($routeProvider) {
       redirectTo: '/' 
     });
 });
+
+
